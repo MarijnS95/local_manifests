@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="kernel/mainline/common-headers" name="mainline-kernel-headers" groups="device" remote="origin" revision="master" />
+  <project path="kernel/mainline/common-kernel" name="mainline-kernel-prebuilt" groups="device" remote="origin" revision="master" />
+  <project path="kernel/mainline/kernel" name="kernel-upstream" groups="device" remote="origin" revision="v5.3-xperia" />
+</manifest>
