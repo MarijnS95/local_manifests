@@ -27,7 +27,8 @@
     <remove-project name="platform/packages/apps/Car/tests" />
 
     <remove-project name="platform/packages/apps/Browser2" />
-    <remove-project name="platform/packages/apps/Calendar" />
+    <!--platform_testing/build/tasks/tests/platform_test_list.mk: error: platform_tests: Unknown installed file for module 'CalendarTests'-->
+    <!--<remove-project name="platform/packages/apps/Calendar" />-->
     <remove-project name="platform/packages/apps/Gallery" />
     <remove-project name="platform/packages/apps/Gallery2" />
     <remove-project name="platform/packages/apps/QuickSearchBox" />
