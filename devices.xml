@@ -2,10 +2,10 @@
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="origin" revision="master" />
-<project path="device/sony/common" name="device-sony-common" groups="device" remote="origin" revision="master" />
+<project path="device/sony/common" name="device-sony-common" groups="device" remote="origin" revision="linux-mainline" />
 
 <!--msm8956-->
-<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="origin" revision="master" />
+<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="origin" revision="linux-mainline" />
 <project path="device/sony/blanc" name="device-sony-blanc" groups="device" remote="sony" revision="master" />
 <project path="device/sony/kugo" name="device-sony-kugo" groups="device" remote="sony" revision="master" />
 <project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="origin" revision="master" />
