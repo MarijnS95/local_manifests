@@ -5,4 +5,8 @@
 
 <!--<remove-project name="platform/external/mesa3d" />
 <project path="external/mesa3d" name="mesa" remote="origin" revision="master" />-->
+
+<remote name="los" fetch="https://github.com/LineageOS/" />
+<project path="external/libncurses" name="android_external_libncurses" remote="los" revision="lineage-17.1" />
+<project path="external/vim" name="android_external_vim" remote="origin" revision="android-11" />
 </manifest>
