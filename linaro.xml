@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="rh" fetch="https://github.com/robherring/" />
+    <project path="vendor/linaro/gbm_gralloc" name="gbm_gralloc" remote="rh" revision="master" />
+</manifest>
