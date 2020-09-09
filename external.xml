@@ -3,6 +3,6 @@
 <remote name="exfatprogs" fetch="https://github.com/exfatprogs/" />
 <project path="vendor/external/exfatprogs" name="exfatprogs" groups="device" remote="exfatprogs" revision="refs/tags/1.0.4" />
 
-<remove-project name="platform/external/mesa3d" />
-<project path="external/mesa3d" name="mesa" remote="origin" revision="master" />
+<!--<remove-project name="platform/external/mesa3d" />
+<project path="external/mesa3d" name="mesa" remote="origin" revision="master" />-->
 </manifest>
