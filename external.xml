@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="exfatprogs" fetch="https://github.com/exfatprogs/" />
+<remote name="drm-hwcomposer" fetch="https://gitlab.freedesktop.org/drm-hwcomposer/" />
 <project path="vendor/external/exfatprogs" name="exfatprogs" groups="device" remote="exfatprogs" revision="refs/tags/1.0.4" />
 
 <!--<remove-project name="platform/external/mesa3d" />
 <project path="external/mesa3d" name="mesa" remote="origin" revision="master" />-->
+
+<remove-project name="platform/external/drm_hwcomposer" />
+<project path="external/drm_hwcomposer" name="drm-hwcomposer" remote="drm-hwcomposer" revision="main" />
 
 <remote name="los" fetch="https://github.com/LineageOS/" />
 <project path="external/libncurses" name="android_external_libncurses" remote="los" revision="lineage-17.1" />
