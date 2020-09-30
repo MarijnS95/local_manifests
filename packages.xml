@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<project path="packages/apps/YoutubeBlackOverlay" name="packages-apps-YoutubeBlackOverlay" groups="packages" remote="origin" revision="master" />
-<project path="packages/apps/GmailBlackOverlay" name="packages-apps-GmailBlackOverlay" groups="packages" remote="origin" revision="master" />
-<project path="packages/apps/BlackBackgroundOverlay" name="packages-apps-BlackBackgroundOverlay" groups="packages" remote="origin" revision="master" />
+<project path="packages/apps/YoutubeBlackOverlay" name="packages-apps-YoutubeBlackOverlay" groups="packages" remote="origin" revision="android-r" />
+<project path="packages/apps/GmailBlackOverlay" name="packages-apps-GmailBlackOverlay" groups="packages" remote="origin" revision="android-r" />
+<project path="packages/apps/BlackBackgroundOverlay" name="packages-apps-BlackBackgroundOverlay" groups="packages" remote="origin" revision="android-r" />
 </manifest>
