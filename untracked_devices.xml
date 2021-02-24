@@ -18,6 +18,7 @@
     <remove-project name="device/generic/qemu" />
     <remove-project name="device/generic/trusty" />
     <remove-project name="device/generic/uml" />
+    <remove-project name="device/generic/vulkan-cereal" />
     <remove-project name="device/generic/x86" />
     <remove-project name="device/generic/x86_64" />
     <remove-project name="device/google/atv" />
@@ -25,6 +26,7 @@
     <remove-project name="device/google/bonito-kernel" />
     <remove-project name="device/google/bonito-sepolicy" />
     <remove-project name="device/google/bramble" />
+    <remove-project name="device/google/bramble-kernel" />
     <remove-project name="device/google/bramble-sepolicy" />
     <remove-project name="device/google/contexthub" />
     <remove-project name="device/google/coral" />
@@ -34,13 +36,12 @@
     <remove-project name="device/google/crosshatch-kernel" />
     <remove-project name="device/google/crosshatch-sepolicy" />
     <remove-project name="device/google/cuttlefish" />
-    <remove-project name="device/google/cuttlefish_kernel" />
-    <remove-project name="device/google/cuttlefish_vmm" />
+    <remove-project name="device/google/cuttlefish_prebuilts" />
     <remove-project name="device/google/fuchsia" />
     <remove-project name="device/google/redbull" />
-    <remove-project name="device/google/redbull-kernel" />
     <remove-project name="device/google/redbull-sepolicy" />
     <remove-project name="device/google/redfin" />
+    <remove-project name="device/google/redfin-kernel" />
     <remove-project name="device/google/redfin-sepolicy" />
     <remove-project name="device/google/sunfish" />
     <remove-project name="device/google/sunfish-kernel" />
@@ -48,9 +49,6 @@
     <remove-project name="device/google/trout" />
     <remove-project name="device/google/vrservices" />
     <remove-project name="device/google_car" />
-    <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
-    <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
-    <remove-project name="device/linaro/bootloader/edk2" />
     <remove-project name="device/linaro/dragonboard" />
     <remove-project name="device/linaro/dragonboard-kernel" />
     <remove-project name="device/linaro/hikey" />
@@ -58,8 +56,7 @@
     <remove-project name="device/linaro/poplar" />
     <remove-project name="device/linaro/poplar-kernel" />
     <remove-project name="device/mediatek/wembley-sepolicy" />
-    <!-- Necessary for apns -->
-    <!--<remove-project name="device/sample" />-->
+    <!-- <remove-project name="device/sample" /> -->
     <remove-project name="device/ti/beagle-x15" />
     <remove-project name="device/ti/beagle-x15-kernel" />
 </manifest>
